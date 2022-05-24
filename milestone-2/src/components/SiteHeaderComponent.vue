@@ -10,12 +10,6 @@
       :array="genreList"
       @selectSubmit="searchGenre"
     />
-    <span>Filta per autore:</span>
-    <SelectDisc
-      v-model="artist"
-      :array="authorList"
-      @selectSubmit="searchAuthor"
-    />
   </header>
 </template>
 
