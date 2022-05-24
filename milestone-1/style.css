@@ -1,0 +1,62 @@
+header {
+    height: 100px;
+    background-color: rgba(46, 58, 70, 1);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+#logo {
+    height: 80px;
+    margin-right: 3rem;
+}
+
+main {
+    height: calc(100vh - 100px);
+    background-color: rgba(30, 45, 59, 1);
+    color: white;
+    overflow: hidden;
+}
+
+.col-c {
+    width: 20%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.disc {
+    padding: 1rem;
+    text-align: center;
+    min-height: 380px;
+    background-color: rgba(46, 58, 70, 1);
+    box-shadow: 0 0 3px rgba(128, 128, 128, 0.507);
+    border: 1px solid transparent;
+}
+
+
+.disc-img {
+    height: 50%;
+}
+
+.disc-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.disc-body {
+    margin-top: 1.5rem;
+    color: gray;
+}
+
+.disc-title {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+}
+
